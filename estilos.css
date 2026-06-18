@@ -1,4 +1,3 @@
-/* --- CONFIGURACIONES GLOBALES Y ANIMACIONES --- */
 @keyframes degradadoFondo {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
@@ -9,7 +8,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth; /* Hace que la pantalla viaje suavemente al usar el menú */
+    scroll-behavior: smooth; 
 }
 
 body {
@@ -19,7 +18,6 @@ body {
     line-height: 1.7;
 }
 
-/* --- HEADER FIJO EN PANTALLA --- */
 header {
     background-color: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(5px);
@@ -57,7 +55,6 @@ nav a:hover {
     color: #16a34a;
 }
 
-/* --- SECCIÓN HÉROE (PORTADA ANIMADA) --- */
 .heroe {
     background: linear-gradient(-45deg, #22c55e, #15803d, #10b981, #047857);
     background-size: 400% 400%;
@@ -102,7 +99,6 @@ nav a:hover {
     box-shadow: 0 6px 20px rgba(0,0,0,0.2);
 }
 
-/* --- SECCIONES SEPARADAS (OBLIGA AL SCROLL) --- */
 main {
     max-width: 1100px;
     margin: 0 auto;
@@ -125,7 +121,6 @@ main {
     margin-bottom: 12px;
 }
 
-/* --- TARJETAS ALIMENTACIÓN --- */
 .contenedor-tarjetas {
     display: flex;
     flex-wrap: wrap;
@@ -181,21 +176,19 @@ main {
     color: #1e293b;
 }
 
-/* Espaciados y colores para la aclaración de alimentos */
 .permitido, .prohibido {
     margin-top: 12px;
     font-size: 14.5px;
 }
 
 .permitido strong {
-    color: #16a34a; /* Título en verde */
+    color: #16a34a; 
 }
 
 .prohibido strong {
-    color: #b91c1c; /* Título en rojo */
+    color: #b91c1c; 
 }
 
-/* --- SECCIÓN CONSEJOS --- */
 .contenedor-consejos {
     display: flex;
     flex-wrap: wrap;
@@ -226,7 +219,6 @@ main {
     color: #1e293b;
 }
 
-/* --- BANNER DE NÚMEROS --- */
 .seccion-info {
     display: flex;
     flex-wrap: wrap;
@@ -252,7 +244,6 @@ main {
     font-weight: 800;
 }
 
-/* --- PREGUNTAS FRECUENTES --- */
 .contenedor-faq {
     max-width: 850px;
     margin: 0 auto;
@@ -280,7 +271,6 @@ main {
     color: #475569;
 }
 
-/* --- FORMULARIO DISEÑO --- */
 .contacto-contenedor {
     background: white;
     padding: 50px;
@@ -358,7 +348,6 @@ input:focus, textarea:focus {
     text-align: center;
 }
 
-/* --- FOOTER --- */
 footer {
     background-color: #1e293b;
     color: #94a3b8;
@@ -367,7 +356,6 @@ footer {
     font-size: 15px;
 }
 
-/* --- RESPONSIVIDAD --- */
 @media (max-width: 768px) {
     .header-contenedor {
         flex-direction: column;
